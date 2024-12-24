@@ -27,8 +27,12 @@ These examples split the draw into clear functions:
 
 ### Single Touch Data
 
-| ![Single Touch Screen](/images/singleTouch_Screen.png) | ![Single Touch QR](/images/singleTouch_QR.jpg.png) |
-|:---:|:---:|
+<table>
+<tr>
+<td width="300px"><img src="/images/singleTouch_Screen.png" alt="Single Touch Screen" width="100%"/></td>
+<td width="300px"><img src="/images/singleTouch_QR.jpg.png" alt="Single Touch QR" width="100%"/></td>
+</tr>
+</table>
 
 - Works With: Laptop MacOS | Laptop Windows | Android | Mobile IOS
 
@@ -59,8 +63,12 @@ Note the meta tag in the index.html page that disables the default multitouch zo
 
 ### Multi Touch Data
 
-| ![Multi Touch Screen](/images/multitouch_screen.png) | ![Multi Touch QR](/images/multitouch_QR.png) |
-|:---:|:---:|
+<table>
+<tr>
+<td width="300px"><img src="/images/multitouch_screen.png" alt="Multi Touch Screen" width="100%"/></td>
+<td width="300px"><img src="/images/multitouch_QR.png" alt="Multi Touch QR" width="100%"/></td>
+</tr>
+</table>
 
 - Works With: Mobile IOS | Android
 
@@ -85,8 +93,12 @@ Note the meta tag in the index.html page that disables the default multitouch zo
 
 ### Microphone Data
 
-| ![Microphone Screen](/images/microphone_screen.png) | ![Microphone QR](/images/microphone_QR.png) |
-|:---:|:---:|
+<table>
+<tr>
+<td width="300px"><img src="/images/microphone_screen.png" alt="Microphone Screen" width="100%"/></td>
+<td width="300px"><img src="/images/microphone_QR.png" alt="Microphone QR" width="100%"/></td>
+</tr>
+</table>
 
 - Works With: Laptop MacOS | Laptop Windows | IOS | Android
 
@@ -119,8 +131,12 @@ Because of security settings in all browsers, microphone access cannot be enable
 
 ### Phone Sensors - Accelerometer + Gyroscope
 
-| ![Orientation Screen](/images/orientation_screen.png) | ![Orientation QR](/images/orientation_QR.png) |
-|:---:|:---:|
+<table>
+<tr>
+<td width="300px"><img src="/images/orientation_screen.png" alt="Orientation Screen" width="100%"/></td>
+<td width="300px"><img src="/images/orientation_QR.png" alt="Orientation QR" width="100%"/></td>
+</tr>
+</table>
 
 - Works With: IOS | Android
 
