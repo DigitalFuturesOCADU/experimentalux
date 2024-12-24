@@ -36,7 +36,7 @@ These examples split the draw into clear functions:
 </tr>
 </table>
 
-Works With: Laptop MacOS | Laptop Windows | Android | Mobile IOS
+Works With: Desktop MacOS | Desktop Windows | Android | Mobile IOS
 
 This simple input shows multiple pieces of data that can be collected from a single click on the canvas.
 
@@ -102,15 +102,13 @@ Note the meta tag in the index.html page that disables the default multitouch zo
 </tr>
 </table>
 
-Works With: Laptop MacOS | Laptop Windows | IOS | Android
+Works With: Desktop MacOS | Desktop Windows | IOS | Android
 
 Reads the volume level of the microphone and transforms it into multiple datapoints.
 
 The code also handles enabling access to the microphone across platforms.
 
 Because of security settings in all browsers, microphone access cannot be enabled automatically.
-
-[Enabling Phone Hardware Access in P5.js](enabling-phone-hardware-access.md)
 
 [Editor Link](https://editor.p5js.org/npuckett/sketches/g1Ek4q0Oy)
 
@@ -153,8 +151,6 @@ Note the meta tag in the index.html page that disables the default multitouch zo
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 ```
 
-[Enabling Phone Hardware Access in P5.js](enabling-phone-hardware-access.md)
-
 [Editor Link](https://editor.p5js.org/npuckett/sketches/XLiasuc99)
 
 [Fullscreen Link](https://editor.p5js.org/npuckett/full/XLiasuc99)
@@ -179,7 +175,7 @@ Note the meta tag in the index.html page that disables the default multitouch zo
 </tr>
 </table>
 
-Works With: Laptop MacOS | Laptop Windows
+Works With: Desktop MacOS | Desktop Windows
 
 This sketch combines monitoring of both window size and position, displaying real-time data about how the window changes and moves on screen. It tracks window size changes, monitors window position, shows position relative to screen quadrants, and updates in real-time for both movement and resizing. The data display can be toggled with the spacebar.
 
@@ -225,7 +221,7 @@ Display:
 </tr>
 </table>
 
-Works With: Laptop MacOS | Laptop Windows | IOS | Android
+Works With: Desktop MacOS | Desktop Windows | IOS | Android
 
 This sketch demonstrates scrolling behavior based on user input with support for both mouse wheel and touch events. It features momentum-based scrolling, touch gesture handling, and smooth scroll animation. The system tracks scroll position, direction, speed, and timing while providing both mouse and touch input support with momentum-based movement.
 
