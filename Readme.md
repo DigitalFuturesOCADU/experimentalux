@@ -8,6 +8,7 @@
   - [Microphone Data](#microphone-data)
   - [Phone Sensors - Accelerometer + Gyroscope](#phone-sensors---accelerometer--gyroscope)
   - [Window Size and Position](#window-size-and-position)
+  - [Scroll Data](#scroll-data)
 
 ## Experimental UX
 
@@ -210,6 +211,49 @@ Screen position:
 - rightSide: Boolean - Indicates if window is on the right side of screen
 - topHalf: Boolean - Indicates if window is in the top half of screen
 - bottomHalf: Boolean - Indicates if window is in the bottom half of screen
+
+Display:
+- showData: Boolean - Controls the visibility of the data display
+
+### Scroll Data
+
+<table>
+<tr>
+<td width="300px"><img src="/images/scroll_screen.png" alt="Scroll Screen" width="100%"/></td>
+<td width="300px"><img src="/images/scroll_QR.png" alt="Scroll QR" width="100%"/></td>
+</tr>
+</table>
+
+Works With: Laptop MacOS | Laptop Windows | IOS | Android
+
+This sketch demonstrates scrolling behavior based on user input with support for both mouse wheel and touch events. It features momentum-based scrolling, touch gesture handling, and smooth scroll animation. The system tracks scroll position, direction, speed, and timing while providing both mouse and touch input support with momentum-based movement.
+
+[Editor Link](https://editor.p5js.org/npuckett/sketches/lZzKl-sBI)
+
+[Fullscreen Link](https://editor.p5js.org/npuckett/full/lZzKl-sBI)
+
+**Variables:**
+Scroll State:
+- scrollY: Number - Current vertical scroll position
+- scrollDirection: String - Indicates scroll direction (Up, Down, or None)
+- scrollState: Number - Numeric representation of scroll state (0: None, 1: Down, 2: Up)
+- scrollIncrement: Number - Fixed amount to increment/decrement scroll position
+- maxScroll: Number - Maximum allowed scroll position
+- scrollSpeed: Number - Current scrolling speed in pixels per second
+
+Timing:
+- lastChangeTime: Number - Time of the last scroll change
+- lastDirectionChangeTime: Number - Time of the last direction change
+- lastScrollTime: Number - Timestamp of last scroll movement
+- speedBuffer: Array - Stores recent speed measurements for averaging
+
+Touch Input:
+- touchStartY: Number - Initial Y position when touch starts
+- touchPrevY: Number - Previous touch Y position for calculating movement
+- isTouching: Boolean - Indicates if user is currently touching
+- lastTouchTime: Number - Timestamp of last touch event
+- lastTouchY: Number - Last recorded touch Y position
+- momentum: Number - Current scroll momentum value
 
 Display:
 - showData: Boolean - Controls the visibility of the data display
