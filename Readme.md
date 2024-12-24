@@ -1,4 +1,3 @@
-```markdown
 # Experimenting with Inputs + Templates
 
 ## Table of Contents
@@ -29,12 +28,8 @@ These examples split the draw into clear functions:
 
 <table>
 <tr>
-<td width="300px">
-<img src="/images/singleTouch_Screen.png" alt="Single Touch Screen" width="100%"/>
-</td>
-<td width="300px">
-<img src="/images/singleTouch_QR.jpg.png" alt="Single Touch QR" width="100%"/>
-</td>
+<td width="300px"><img src="/images/singleTouch_Screen.png" alt="Single Touch Screen" width="100%"/></td>
+<td width="300px"><img src="/images/singleTouch_QR.jpg.png" alt="Single Touch QR" width="100%"/></td>
 </tr>
 </table>
 
@@ -69,12 +64,8 @@ Note the meta tag in the index.html page that disables the default multitouch zo
 
 <table>
 <tr>
-<td width="300px">
-<img src="/images/multitouch_screen.png" alt="Multi Touch Screen" width="100%"/>
-</td>
-<td width="300px">
-<img src="/images/multitouch_QR.png" alt="Multi Touch QR" width="100%"/>
-</td>
+<td width="300px"><img src="/images/multitouch_screen.png" alt="Multi Touch Screen" width="100%"/></td>
+<td width="300px"><img src="/images/multitouch_QR.png" alt="Multi Touch QR" width="100%"/></td>
 </tr>
 </table>
 
@@ -103,12 +94,8 @@ Note the meta tag in the index.html page that disables the default multitouch zo
 
 <table>
 <tr>
-<td width="300px">
-<img src="/images/microphone_screen.png" alt="Microphone Screen" width="100%"/>
-</td>
-<td width="300px">
-<img src="/images/microphone_QR.png" alt="Microphone QR" width="100%"/>
-</td>
+<td width="300px"><img src="/images/microphone_screen.png" alt="Microphone Screen" width="100%"/></td>
+<td width="300px"><img src="/images/microphone_QR.png" alt="Microphone QR" width="100%"/></td>
 </tr>
 </table>
 
@@ -145,12 +132,8 @@ Because of security settings in all browsers, microphone access cannot be enable
 
 <table>
 <tr>
-<td width="300px">
-<img src="/images/orientation_screen.png" alt="Orientation Screen" width="100%"/>
-</td>
-<td width="300px">
-<img src="/images/orientation_QR.png" alt="Orientation QR" width="100%"/>
-</td>
+<td width="300px"><img src="/images/orientation_screen.png" alt="Orientation Screen" width="100%"/></td>
+<td width="300px"><img src="/images/orientation_QR.png" alt="Orientation QR" width="100%"/></td>
 </tr>
 </table>
 
@@ -183,4 +166,3 @@ Note the meta tag in the index.html page that disables the default multitouch zo
 - dataReceived: Boolean - Indicates if any sensor data has been received
 - shakeHistory: Array - Stores timestamps of recent shakes
 - shakeRate: Number - Calculates the rate of shakes per second
-```
