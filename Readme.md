@@ -11,10 +11,9 @@
 
 ## Experimental UX
 
-<div style="max-width: 600px; margin: 0 auto;">
-  <img src="/images/uxGraph.png" alt="UX Graph" style="width: 100%; height: auto;"/>
-  <p>When working with Experimental UX, the goal to create interactions that are extremely specific to media and experience. It does not need to be transferable to other situations, but it needs to work well for this one. P5 provides relatively easy methods for accessing various input data points. Because you have access to the raw input data, you are able to develop new data points from the input that move beyond the typical/expected.</p>
-</div>
+![UX Graph](/images/uxGraph.png)
+
+When working with Experimental UX, the goal to create interactions that are extremely specific to media and experience. It does not need to be transferable to other situations, but it needs to work well for this one. P5 provides relatively easy methods for accessing various input data points. Because you have access to the raw input data, you are able to develop new data points from the input that move beyond the typical/expected.
 
 ## Input Templates
 
@@ -28,12 +27,8 @@ These examples split the draw into clear functions:
 
 ### Single Touch Data
 
-<table>
-<tr>
-<td width="300px"><img src="/images/singleTouch_Screen.png" alt="Single Touch Screen" width="100%"/></td>
-<td width="300px"><img src="/images/singleTouch_QR.jpg.png" alt="Single Touch QR" width="100%"/></td>
-</tr>
-</table>
+| ![Single Touch Screen](/images/singleTouch_Screen.png) | ![Single Touch QR](/images/singleTouch_QR.jpg.png) |
+|:---:|:---:|
 
 - Works With: Laptop MacOS | Laptop Windows | Android | Mobile IOS
 
@@ -64,12 +59,8 @@ Note the meta tag in the index.html page that disables the default multitouch zo
 
 ### Multi Touch Data
 
-<table>
-<tr>
-<td width="300px"><img src="/images/multitouch_screen.png" alt="Multi Touch Screen" width="100%"/></td>
-<td width="300px"><img src="/images/multitouch_QR.png" alt="Multi Touch QR" width="100%"/></td>
-</tr>
-</table>
+| ![Multi Touch Screen](/images/multitouch_screen.png) | ![Multi Touch QR](/images/multitouch_QR.png) |
+|:---:|:---:|
 
 - Works With: Mobile IOS | Android
 
@@ -94,12 +85,8 @@ Note the meta tag in the index.html page that disables the default multitouch zo
 
 ### Microphone Data
 
-<table>
-<tr>
-<td width="300px"><img src="/images/microphone_screen.png" alt="Microphone Screen" width="100%"/></td>
-<td width="300px"><img src="/images/microphone_QR.png" alt="Microphone QR" width="100%"/></td>
-</tr>
-</table>
+| ![Microphone Screen](/images/microphone_screen.png) | ![Microphone QR](/images/microphone_QR.png) |
+|:---:|:---:|
 
 - Works With: Laptop MacOS | Laptop Windows | IOS | Android
 
@@ -132,12 +119,8 @@ Because of security settings in all browsers, microphone access cannot be enable
 
 ### Phone Sensors - Accelerometer + Gyroscope
 
-<table>
-<tr>
-<td width="300px"><img src="/images/orientation_screen.png" alt="Orientation Screen" width="100%"/></td>
-<td width="300px"><img src="/images/orientation_QR.png" alt="Orientation QR" width="100%"/></td>
-</tr>
-</table>
+| ![Orientation Screen](/images/orientation_screen.png) | ![Orientation QR](/images/orientation_QR.png) |
+|:---:|:---:|
 
 - Works With: IOS | Android
 
