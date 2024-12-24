@@ -7,6 +7,7 @@
   - [Multi Touch Data](#multi-touch-data)
   - [Microphone Data](#microphone-data)
   - [Phone Sensors - Accelerometer + Gyroscope](#phone-sensors---accelerometer--gyroscope)
+  - [Window Size](#window-size)
 
 ## Experimental UX
 
@@ -166,3 +167,30 @@ Note the meta tag in the index.html page that disables the default multitouch zo
 - dataReceived: Boolean - Indicates if any sensor data has been received
 - shakeHistory: Array - Stores timestamps of recent shakes
 - shakeRate: Number - Calculates the rate of shakes per second
+
+### Window Size
+
+<table>
+<tr>
+<td width="300px"><img src="/images/windowSize_screen.png" alt="Window Size Screen" width="100%"/></td>
+<td width="300px"><img src="/images/windowSize_QR.png" alt="Window Size QR" width="100%"/></td>
+</tr>
+</table>
+
+Works With: Laptop MacOS | Laptop Windows
+
+This sketch demonstrates how to interact with window-related variables and display them on the canvas. It updates in real-time when the window is resized and allows toggling the data display with the spacebar.
+
+[Editor Link](https://editor.p5js.org/npuckett/sketches/jJ3wX1yef)
+
+[Fullscreen Link](https://editor.p5js.org/npuckett/full/jJ3wX1yef)
+
+**Variables:**
+- lastWidth: Number - Stores the previous window width
+- lastHeight: Number - Stores the previous window height
+- lastChangeTime: Number - Timestamp of the last window resize
+- changeX: Number - Change in window width since last resize
+- changeY: Number - Change in window height since last resize
+- timeSinceChange: Number - Time elapsed since the last window resize in seconds
+- biggerOrSmaller: String - Indicates if the window got bigger or smaller
+- showData: Boolean - Controls the visibility of the data display
