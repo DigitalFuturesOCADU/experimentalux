@@ -4,7 +4,7 @@
 ## Table of Contents
 - [Experimental UX](#experimental-ux)
 - [Input Templates](#input-templates)
-  - [Single Touch Data](#single-touch-data) 
+  - [Single Touch Data](#single-touch-data)
   - [Multi Touch Data](#multi-touch-data)
   - [Microphone Data](#microphone-data)
   - [Phone Sensors - Accelerometer + Gyroscope](#phone-sensors---accelerometer--gyroscope)
@@ -29,12 +29,16 @@ These examples split the draw into clear functions:
 
 <table>
 <tr>
-<td width="300px"><img src="/images/singleTouch_Screen.png" alt="Single Touch Screen" width="100%"/></td>
-<td width="300px"><img src="/images/singleTouch_QR.jpg.png" alt="Single Touch QR" width="100%"/></td>
+<td width="300px">
+<img src="/images/singleTouch_Screen.png" alt="Single Touch Screen" width="100%"/>
+</td>
+<td width="300px">
+<img src="/images/singleTouch_QR.jpg.png" alt="Single Touch QR" width="100%"/>
+</td>
 </tr>
 </table>
 
-- Works With: Laptop MacOS | Laptop Windows | Android | Mobile IOS
+Works With: Laptop MacOS | Laptop Windows | Android | Mobile IOS
 
 This simple input shows multiple pieces of data that can be collected from a single click on the canvas.
 
@@ -65,12 +69,16 @@ Note the meta tag in the index.html page that disables the default multitouch zo
 
 <table>
 <tr>
-<td width="300px"><img src="/images/multitouch_screen.png" alt="Multi Touch Screen" width="100%"/></td>
-<td width="300px"><img src="/images/multitouch_QR.png" alt="Multi Touch QR" width="100%"/></td>
+<td width="300px">
+<img src="/images/multitouch_screen.png" alt="Multi Touch Screen" width="100%"/>
+</td>
+<td width="300px">
+<img src="/images/multitouch_QR.png" alt="Multi Touch QR" width="100%"/>
+</td>
 </tr>
 </table>
 
-- Works With: Mobile IOS | Android
+Works With: Mobile IOS | Android
 
 Reads multi-touch data on screen. Focused on reading multiple input points.
 
@@ -95,12 +103,16 @@ Note the meta tag in the index.html page that disables the default multitouch zo
 
 <table>
 <tr>
-<td width="300px"><img src="/images/microphone_screen.png" alt="Microphone Screen" width="100%"/></td>
-<td width="300px"><img src="/images/microphone_QR.png" alt="Microphone QR" width="100%"/></td>
+<td width="300px">
+<img src="/images/microphone_screen.png" alt="Microphone Screen" width="100%"/>
+</td>
+<td width="300px">
+<img src="/images/microphone_QR.png" alt="Microphone QR" width="100%"/>
+</td>
 </tr>
 </table>
 
-- Works With: Laptop MacOS | Laptop Windows | IOS | Android
+Works With: Laptop MacOS | Laptop Windows | IOS | Android
 
 Reads the volume level of the microphone and transforms it into multiple datapoints.
 
@@ -133,12 +145,16 @@ Because of security settings in all browsers, microphone access cannot be enable
 
 <table>
 <tr>
-<td width="300px"><img src="/images/orientation_screen.png" alt="Orientation Screen" width="100%"/></td>
-<td width="300px"><img src="/images/orientation_QR.png" alt="Orientation QR" width="100%"/></td>
+<td width="300px">
+<img src="/images/orientation_screen.png" alt="Orientation Screen" width="100%"/>
+</td>
+<td width="300px">
+<img src="/images/orientation_QR.png" alt="Orientation QR" width="100%"/>
+</td>
 </tr>
 </table>
 
-- Works With: IOS | Android
+Works With: IOS | Android
 
 Reads the Orientation and Acceleration data from the sensors and stores it multiple datapoints.
 
