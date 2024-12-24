@@ -7,7 +7,7 @@
   - [Multi Touch Data](#multi-touch-data)
   - [Microphone Data](#microphone-data)
   - [Phone Sensors - Accelerometer + Gyroscope](#phone-sensors---accelerometer--gyroscope)
-  - [Window Size](#window-size)
+  - [Window Size and Position](#window-size-and-position)
 
 ## Experimental UX
 
@@ -168,7 +168,7 @@ Note the meta tag in the index.html page that disables the default multitouch zo
 - shakeHistory: Array - Stores timestamps of recent shakes
 - shakeRate: Number - Calculates the rate of shakes per second
 
-### Window Size
+### Window Size and Position
 
 <table>
 <tr>
@@ -179,18 +179,37 @@ Note the meta tag in the index.html page that disables the default multitouch zo
 
 Works With: Laptop MacOS | Laptop Windows
 
-This sketch demonstrates how to interact with window-related variables and display them on the canvas. It updates in real-time when the window is resized and allows toggling the data display with the spacebar.
+This sketch combines monitoring of both window size and position, displaying real-time data about how the window changes and moves on screen. It tracks window size changes, monitors window position, shows position relative to screen quadrants, and updates in real-time for both movement and resizing. The data display can be toggled with the spacebar.
 
 [Editor Link](https://editor.p5js.org/npuckett/sketches/jJ3wX1yef)
 
 [Fullscreen Link](https://editor.p5js.org/npuckett/full/jJ3wX1yef)
 
 **Variables:**
+Size tracking:
 - lastWidth: Number - Stores the previous window width
 - lastHeight: Number - Stores the previous window height
-- lastChangeTime: Number - Timestamp of the last window resize
+- lastSizeChangeTime: Number - Timestamp of the last window resize
 - changeX: Number - Change in window width since last resize
 - changeY: Number - Change in window height since last resize
-- timeSinceChange: Number - Time elapsed since the last window resize in seconds
+- timeSinceSizeChange: Number - Time elapsed since the last window resize in seconds
 - biggerOrSmaller: String - Indicates if the window got bigger or smaller
+
+Position tracking:
+- lastX: Number - Stores the previous window X position
+- lastY: Number - Stores the previous window Y position
+- lastMoveTime: Number - Timestamp of the last window movement
+- moveX: Number - Change in X position since last movement
+- moveY: Number - Change in Y position since last movement
+- timeSinceMove: Number - Time elapsed since the last movement in seconds
+- moveDirection: String - Indicates the direction of window movement
+- totalDistanceMoved: Number - Total distance the window has moved in pixels
+
+Screen position:
+- leftSide: Boolean - Indicates if window is on the left side of screen
+- rightSide: Boolean - Indicates if window is on the right side of screen
+- topHalf: Boolean - Indicates if window is in the top half of screen
+- bottomHalf: Boolean - Indicates if window is in the bottom half of screen
+
+Display:
 - showData: Boolean - Controls the visibility of the data display
