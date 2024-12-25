@@ -1,4 +1,4 @@
-# Experimenting with Inputs + Templates
+# Experimenting with Inputs in P5
 
 ## Table of Contents
 - [Experimental UX](#experimental-ux)
@@ -28,10 +28,12 @@ These examples split the draw into clear functions:
 
 ### Single Touch Data
 
-| ![Single Touch Screen](/images/singleTouch_Screen.png) | ![Single Touch QR](/images/singleTouch_QR.jpg.png) |
-|:---:|:---:|
+<div style="display: flex; justify-content: space-between; margin: 20px 0;">
+    <img src="/images/singleTouch_Screen.png" alt="Single Touch Screen" width="300"/>
+    <img src="/images/singleTouch_QR.jpg.png" alt="Single Touch QR" width="300"/>
+</div>
 
-Works With: Laptop MacOS | Laptop Windows | Android | Mobile IOS
+Works With: Desktop MacOS | Desktop Windows | Android | IOS
 
 This simple input shows multiple pieces of data that can be collected from a single click on the canvas.
 
@@ -60,10 +62,12 @@ Note the meta tag in the index.html page that disables the default multitouch zo
 
 ### Multi Touch Data
 
-| ![Multi Touch Screen](/images/multitouch_screen.png) | ![Multi Touch QR](/images/multitouch_QR.png) |
-|:---:|:---:|
+<div style="display: flex; justify-content: space-between; margin: 20px 0;">
+    <img src="/images/multitouch_screen.png" alt="Multi Touch Screen" width="300"/>
+    <img src="/images/multitouch_QR.png" alt="Multi Touch QR" width="300"/>
+</div>
 
-Works With: Mobile IOS | Android
+Works With: IOS | Android
 
 Reads multi-touch data on screen. Focused on reading multiple input points.
 
@@ -86,10 +90,12 @@ Note the meta tag in the index.html page that disables the default multitouch zo
 
 ### Microphone Data
 
-| ![Microphone Screen](/images/microphone_screen.png) | ![Microphone QR](/images/microphone_QR.png) |
-|:---:|:---:|
+<div style="display: flex; justify-content: space-between; margin: 20px 0;">
+    <img src="/images/microphone_screen.png" alt="Microphone Screen" width="300"/>
+    <img src="/images/microphone_QR.png" alt="Microphone QR" width="300"/>
+</div>
 
-Works With: Laptop MacOS | Laptop Windows | IOS | Android
+Works With: Desktop MacOS | Desktop Windows | IOS | Android
 
 Reads the volume level of the microphone and transforms it into multiple datapoints.
 
@@ -120,8 +126,10 @@ Because of security settings in all browsers, microphone access cannot be enable
 
 ### Phone Sensors - Accelerometer + Gyroscope
 
-| ![Orientation Screen](/images/orientation_screen.png) | ![Orientation QR](/images/orientation_QR.png) |
-|:---:|:---:|
+<div style="display: flex; justify-content: space-between; margin: 20px 0;">
+    <img src="/images/orientation_screen.png" alt="Orientation Screen" width="300"/>
+    <img src="/images/orientation_QR.png" alt="Orientation QR" width="300"/>
+</div>
 
 Works With: IOS | Android
 
@@ -155,10 +163,12 @@ Note the meta tag in the index.html page that disables the default multitouch zo
 
 ### Window Size and Position
 
-| ![Window Size Screen](/images/windowSize_screen.png) | ![Window Size QR](/images/windowSize_QR.png) |
-|:---:|:---:|
+<div style="display: flex; justify-content: space-between; margin: 20px 0;">
+    <img src="/images/windowSize_screen.png" alt="Window Size Screen" width="300"/>
+    <img src="/images/windowSize_QR.png" alt="Window Size QR" width="300"/>
+</div>
 
-Works With: Laptop MacOS | Laptop Windows
+Works With: Desktop MacOS | Desktop Windows
 
 This sketch combines monitoring of both window size and position, displaying real-time data about how the window changes and moves on screen. It tracks window size changes, monitors window position, shows position relative to screen quadrants, and updates in real-time for both movement and resizing. The data display can be toggled with the spacebar.
 
@@ -197,10 +207,12 @@ Display:
 
 ### Scroll Data
 
-| ![Scroll Screen](/images/scroll_screen.png) | ![Scroll QR](/images/scroll_QR.png) |
-|:---:|:---:|
+<div style="display: flex; justify-content: space-between; margin: 20px 0;">
+    <img src="/images/scroll_screen.png" alt="Scroll Screen" width="300"/>
+    <img src="/images/scroll_QR.png" alt="Scroll QR" width="300"/>
+</div>
 
-Works With: Laptop MacOS | Laptop Windows | IOS | Android
+Works With: Desktop MacOS | Desktop Windows | IOS | Android
 
 This sketch demonstrates scrolling behavior based on user input with support for both mouse wheel and touch events. It features momentum-based scrolling, touch gesture handling, and smooth scroll animation. The system tracks scroll position, direction, speed, and timing while providing both mouse and touch input support with momentum-based movement.
 
