@@ -1,4 +1,4 @@
-# Experimenting with Inputs + Templates in P5
+# Experimenting with Inputs in P5
 This series of P5 examples introduce methods for working with standard input methods in new ways
 
 ## Table of Contents
