@@ -1,4 +1,5 @@
 # Experimenting with Inputs in P5
+These examples provide a starting point to work with typical input methods in new ways by integrating time, history, and simple logic
 
 ## Table of Contents
 - [Experimental UX](#experimental-ux)
