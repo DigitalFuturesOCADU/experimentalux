@@ -168,7 +168,7 @@ Note the meta tag in the index.html page that disables the default multitouch zo
 
 ### Window Size and Position
 
-<table>
+<table style="border-collapse: collapse; border: none;">
 <tr>
 <td width="300px"><img src="/images/windowSize_screen.png" alt="Window Size Screen" width="100%"/></td>
 <td width="300px"><img src="/images/windowSize_QR.png" alt="Window Size QR" width="100%"/></td>
