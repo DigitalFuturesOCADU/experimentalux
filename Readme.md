@@ -28,12 +28,8 @@ These examples split the draw into clear functions:
 
 ### Single Touch Data
 
-<table style="border-collapse: collapse; border: none;">
-<tr>
-<td width="300px" style="border: none;"><img src="/images/singleTouch_Screen.png" alt="Single Touch Screen" width="100%"/></td>
-<td width="300px"><img src="/images/singleTouch_QR.jpg.png" alt="Single Touch QR" width="100%"/></td>
-</tr>
-</table>
+| ![Single Touch Screen](/images/singleTouch_Screen.png) | ![Single Touch QR](/images/singleTouch_QR.jpg.png) |
+|:---:|:---:|
 
 Works With: Laptop MacOS | Laptop Windows | Android | Mobile IOS
 
@@ -64,12 +60,8 @@ Note the meta tag in the index.html page that disables the default multitouch zo
 
 ### Multi Touch Data
 
-<table>
-<tr>
-<td width="300px"><img src="/images/multitouch_screen.png" alt="Multi Touch Screen" width="100%"/></td>
-<td width="300px"><img src="/images/multitouch_QR.png" alt="Multi Touch QR" width="100%"/></td>
-</tr>
-</table>
+| ![Multi Touch Screen](/images/multitouch_screen.png) | ![Multi Touch QR](/images/multitouch_QR.png) |
+|:---:|:---:|
 
 Works With: Mobile IOS | Android
 
@@ -94,12 +86,8 @@ Note the meta tag in the index.html page that disables the default multitouch zo
 
 ### Microphone Data
 
-<table>
-<tr>
-<td width="300px"><img src="/images/microphone_screen.png" alt="Microphone Screen" width="100%"/></td>
-<td width="300px"><img src="/images/microphone_QR.png" alt="Microphone QR" width="100%"/></td>
-</tr>
-</table>
+| ![Microphone Screen](/images/microphone_screen.png) | ![Microphone QR](/images/microphone_QR.png) |
+|:---:|:---:|
 
 Works With: Laptop MacOS | Laptop Windows | IOS | Android
 
@@ -132,12 +120,8 @@ Because of security settings in all browsers, microphone access cannot be enable
 
 ### Phone Sensors - Accelerometer + Gyroscope
 
-<table>
-<tr>
-<td width="300px"><img src="/images/orientation_screen.png" alt="Orientation Screen" width="100%"/></td>
-<td width="300px"><img src="/images/orientation_QR.png" alt="Orientation QR" width="100%"/></td>
-</tr>
-</table>
+| ![Orientation Screen](/images/orientation_screen.png) | ![Orientation QR](/images/orientation_QR.png) |
+|:---:|:---:|
 
 Works With: IOS | Android
 
@@ -171,12 +155,8 @@ Note the meta tag in the index.html page that disables the default multitouch zo
 
 ### Window Size and Position
 
-<table>
-<tr>
-<td width="300px"><img src="/images/windowSize_screen.png" alt="Window Size Screen" width="100%"/></td>
-<td width="300px"><img src="/images/windowSize_QR.png" alt="Window Size QR" width="100%"/></td>
-</tr>
-</table>
+| ![Window Size Screen](/images/windowSize_screen.png) | ![Window Size QR](/images/windowSize_QR.png) |
+|:---:|:---:|
 
 Works With: Laptop MacOS | Laptop Windows
 
@@ -217,12 +197,8 @@ Display:
 
 ### Scroll Data
 
-<table>
-<tr>
-<td width="300px"><img src="/images/scroll_screen.png" alt="Scroll Screen" width="100%"/></td>
-<td width="300px"><img src="/images/scroll_QR.png" alt="Scroll QR" width="100%"/></td>
-</tr>
-</table>
+| ![Scroll Screen](/images/scroll_screen.png) | ![Scroll QR](/images/scroll_QR.png) |
+|:---:|:---:|
 
 Works With: Laptop MacOS | Laptop Windows | IOS | Android
 
