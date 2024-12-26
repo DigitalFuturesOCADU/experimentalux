@@ -98,6 +98,8 @@ Note the meta tag in the index.html page that disables the default multitouch zo
 
 Works With: Desktop MacOS | Desktop Windows | IOS | Android
 
+[Enabling Hardware Access in IOS / P5](iosAccess.md)
+
 Reads the volume level of the microphone and transforms it into multiple datapoints.
 
 The code also handles enabling access to the microphone across platforms.
@@ -133,6 +135,8 @@ Because of security settings in all browsers, microphone access cannot be enable
 </div>
 
 Works With: IOS | Android
+
+[Enabling Hardware Access in IOS / P5](iosAccess.md)
 
 Reads the Orientation and Acceleration data from the sensors and stores it multiple datapoints.
 
