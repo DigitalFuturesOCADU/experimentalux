@@ -136,7 +136,7 @@ Because of security settings in all browsers, microphone access cannot be enable
 
 Works With: IOS | Android
 
-[Enabling Hardware Access in IOS / P5](/iosAccess/iosAccess.md)
+[Enabling Hardware Access in IOS / P5](iosAccess/iosAccess.md)
 
 Reads the Orientation and Acceleration data from the sensors and stores it multiple datapoints.
 
@@ -149,7 +149,7 @@ Note the meta tag in the index.html page that disables the default multitouch zo
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 ```
 
-[Enabling Hardware Access in IOS / P5](/iosAccess/iosAccess.md)
+[Enabling Hardware Access in IOS / P5](iosAccess/iosAccess.md)
 
 [Editor Link](https://editor.p5js.org/npuckett/sketches/XLiasuc99)
 
