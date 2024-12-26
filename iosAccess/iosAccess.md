@@ -1,6 +1,7 @@
 # Enabling Phone Hardware Access in P5.js for IOS
 When using P5 on IOS, you must directly enable access to hardware inputs. The method for doing this has changed with new versions of the operating system, but these examples have been tested to work with IOS 18. 
 If running the examples on Android/Chrome, no access permissions are required.
+<div style="display: none;">
 <style>
 table {
     border-collapse: collapse;
@@ -9,6 +10,7 @@ td, th {
     border: none;
 }
 </style>
+</div>
 
 ## Table of Contents
 - [Enable Microphone Access IOS](#enable-microphone-access-ios)
