@@ -98,7 +98,7 @@ Note the meta tag in the index.html page that disables the default multitouch zo
 
 Works With: Desktop MacOS | Desktop Windows | IOS | Android
 
-[Enabling Hardware Access in IOS / P5](iosAccess.md)
+[Enabling Hardware Access in IOS / P5](iosAccess/iosAccess.md)
 
 Reads the volume level of the microphone and transforms it into multiple datapoints.
 
@@ -106,7 +106,6 @@ The code also handles enabling access to the microphone across platforms.
 
 Because of security settings in all browsers, microphone access cannot be enabled automatically.
 
-[Enabling Phone Hardware Access in P5.js](enabling-phone-hardware-access.md)
 
 [Editor Link](https://editor.p5js.org/npuckett/sketches/g1Ek4q0Oy)
 
@@ -149,7 +148,7 @@ Note the meta tag in the index.html page that disables the default multitouch zo
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 ```
 
-[Enabling Hardware Access in IOS / P5](iosAccess/iosAccess.md)
+
 
 [Editor Link](https://editor.p5js.org/npuckett/sketches/XLiasuc99)
 
